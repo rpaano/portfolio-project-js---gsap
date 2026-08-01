@@ -1,26 +1,42 @@
+# Romel Nino Paano — Portfolio
 
-<a href="https://www.youtube.com/watch?v=vXHDfrFMoog&list=PL67b5wgxuUtAzzyFFMZ8W3w_XV4jJfH-8" target="_blank">
-  <img src="./thumbnail.png" alt="Thumbnail"/>
-</a>
+Personal portfolio built with Next.js 14 (App Router), TypeScript, Tailwind CSS, and Framer Motion. Content is tailored from my resume: overview, skills, experience timeline, and a projects section with a Web / AI / Web+AI filter.
 
-## Description: 
-## 🎥 In this full step-by-step tutorial, you'll learn how to create a modern, fully responsive 3D portfolio website using HTML, CSS, JavaScript, and GSAP for smooth animations. We'll also integrate a 3D model from Spline.design to bring the website to life with interactive visuals.
+## Stack
 
-## Whether you're a beginner or an experienced developer looking to improve your portfolio, this tutorial breaks down everything clearly — from layout design and animations to adding interactive 3D elements and making the website fully mobile responsive.
+- Next.js 14, React 18, TypeScript
+- Tailwind CSS
+- Framer Motion (scroll/entrance animations)
+- lucide-react (icons)
 
-## 🔥 What You’ll Learn:
-## ✅ How to structure your portfolio with HTML
-## ✅ Styling your website with modern CSS techniques
-## ✅ Adding smooth animations using GSAP
-## ✅ Integrating interactive 3D models from Spline
-## ✅ Making the website fully responsive for all devices
-## ✅ Creating a clean, animated user interface
+## Getting started
 
-## 💡 This project is perfect for showcasing your web development skills in a creative and visually appealing way. You’ll walk away with a complete portfolio that you can use or customize for your personal brand or clients.
+```bash
+npm install
+npm run dev
+```
 
+Open http://localhost:3000.
 
----
-## Watch the full tutorial on YouTub
-<a href="https://www.youtube.com/watch?v=vXHDfrFMoog&list=PL67b5wgxuUtAzzyFFMZ8W3w_XV4jJfH-8">
-  <img src="./youtube.png" alt="youtube"/>
-</a>
+## Project structure
+
+```
+app/            # App Router entry (layout, page, global styles)
+components/     # Navbar, Hero, About, Skills, Experience, Projects, Contact, Footer
+lib/data.ts     # All resume/profile/project content lives here — edit this file to update copy
+public/images/  # Profile photo + project thumbnails (SVG placeholders)
+```
+
+## Updating content
+
+- Personal info, skills, experience, education: `lib/data.ts` (`profile`, `skillGroups`, `experience`, `education`)
+- Projects: `lib/data.ts` (`projects` array). Each project has a `category` of `"web"`, `"ai"`, or `"both"`, which drives the filter tabs on the Projects section. Swap `image`, `demoUrl`, and `repoUrl` for real links as projects go live — placeholder SVG thumbnails live in `public/images/projects/`.
+- Profile photo: replace `public/images/profile.jpg`.
+
+## Deploying to Vercel
+
+1. Push this repo to GitHub.
+2. Go to [vercel.com/new](https://vercel.com/new) and import the repo.
+3. Framework preset auto-detects as Next.js — no config needed. Click **Deploy**.
+
+Every push to the main branch redeploys automatically.

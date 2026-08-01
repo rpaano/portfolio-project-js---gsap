@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00aeac"/>
+      <stop offset="100%" stop-color="#0a4a49"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="#0a0a0a"/>
+  <rect width="800" height="500" fill="url(#g)" opacity="0.85"/>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <text x="60" y="410" font-family="Arial, sans-serif" font-size="22" fill="rgba(255,255,255,0.75)" letter-spacing="2">WEB DEVELOPMENT</text>
+  <text x="60" y="460" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">SaaS Dashboard</text>
+</svg>
