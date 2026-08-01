@@ -6,7 +6,7 @@ import { profile } from "@/lib/data";
 
 export default function Contact() {
   return (
-    <section id="contact" className="section-container py-24">
+    <section id="contact" className="section-container pt-32 pb-40">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
