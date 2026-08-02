@@ -1,32 +1,36 @@
 export const profile = {
   name: "Romel Nino Paano",
-  title: "Full Stack Web Developer",
-  subtitle: "Python & JavaScript Ecosystems",
+  title: "Tools and Automation Senior Associate",
+  subtitle: "Full Stack Web Developer",
   location: "Taguig City, Philippines",
   email: "rpaano02@gmail.com",
   phone: "+63 998 946 0098",
   linkedin: "https://www.linkedin.com/in/romelpaano",
   github: "https://github.com/romelpaano",
   overview:
-    "Full Stack Web Developer with 6+ years of experience building robust, performant web applications across the Python and JavaScript ecosystems. Backend experience spans Django, FastAPI, PostgreSQL, SQLAlchemy, and Alembic, alongside Laravel and Go; frontend experience spans Vue.js, React, Next.js, Angular, Alpine.js/HTMX, and Tailwind CSS. Docker has been part of the deployment workflow on every project across my career. I regularly use GitHub Copilot and integrate AI (Gemini, ChatGPT, Claude, Vertex AI) directly into applications to speed up delivery and improve accuracy.",
+    "Full Stack Web Developer with over 6 years of experience building robust, maintainable, and performant web applications, now extending into cloud and machine learning engineering on Google Cloud Platform and Vertex AI. Proficient in Python, Laravel, Vue.js, React, and Angular, with a strong record of delivering high-quality projects. Known for problem-solving, resourcefulness, and collaboration.",
 };
 
 export const skillGroups = [
   {
     label: "Languages & Backend",
-    items: ["Python", "Django", "FastAPI", "Go", "Laravel", "TypeScript", "JavaScript"],
-  },
-  {
-    label: "Databases",
-    items: ["PostgreSQL", "MySQL", "SQLAlchemy", "Alembic"],
+    items: ["Python", "PHP", "Laravel", "Golang", "JavaScript"],
   },
   {
     label: "Frontend",
-    items: ["Vue 3", "React", "Next.js", "Angular", "Alpine.js / HTMX", "HTML", "CSS / Tailwind CSS"],
+    items: ["Vue 3", "React", "Angular", "HTML", "CSS", "Tailwind CSS"],
   },
   {
-    label: "AI & Tooling",
-    items: ["GitHub Copilot & AI Integration", "GCP / Vertex AI", "Gemini", "ChatGPT", "Claude", "Docker"],
+    label: "Databases",
+    items: ["MySQL", "PostgreSQL"],
+  },
+  {
+    label: "Cloud & AI",
+    items: ["Google Cloud (GCP)", "Vertex AI", "Machine Learning", "AWS"],
+  },
+  {
+    label: "Tools",
+    items: ["GitHub"],
   },
 ];
 
@@ -45,12 +49,15 @@ export const experience: ExperienceItem[] = [
     role: "Tools and Automation Senior Associate",
     period: "2025 — Present",
     summary:
-      "Full Stack Web Developer building both front-end and back-end web and scraper applications for internal automation tooling. Works daily in Python, Angular, TypeScript, and Go, using GitHub Copilot and AI integration to accelerate delivery.",
+      "Full Stack Developer and automation engineer delivering scalable web, scraper, and cloud applications with Python, Angular, TypeScript, and Go, plus machine learning and generative AI solutions on Google Cloud Platform and Vertex AI.",
     highlights: [
-      "Spearheaded development of efficient, scalable applications, coordinating closely with product owners for rapid, successful deployment and UAT.",
-      "Integrated AI functionality (Gemini, ChatGPT, Claude, Vertex AI) into applications and used GitHub Copilot day-to-day to speed up development.",
-      "Significantly increased agent productivity by developing Python and TypeScript applications that reduced file audit times.",
-      "Boosted application performance by 50% through cleanup processes, query optimization, and elimination of redundant functions.",
+      "Spearheaded development of efficient, scalable applications, managing communication with product owners to streamline processes, minimize waste, and ensure rapid, successful deployment and UAT.",
+      "Significantly increased agent productivity by developing applications that reduced file audit times for Google's Operations.",
+      "Integrated AI functionality into applications to deliver faster, more accurate results.",
+      "Built and deployed services on Google Cloud Platform using Cloud Run, Cloud Functions, Pub/Sub, and BigQuery for scalable, cost-efficient solutions.",
+      "Trained and deployed machine learning and generative AI models on Vertex AI, automating classification and data extraction in production applications.",
+      "Boosted application performance by 50% through efficient cleanup processes, comprehensive query optimization, and elimination of unused database data and redundant functions.",
+      "Enhanced system efficiency through strategic AI integrations for repetitive tasks, drastically reducing agent processing time.",
     ],
   },
   {
@@ -59,12 +66,14 @@ export const experience: ExperienceItem[] = [
     period: "2024 — 2025",
     location: "Cebu, Philippines",
     summary:
-      "Developed and maintained web and scraper applications end-to-end. Built and containerized Python services with FastAPI, used Alpine.js for lightweight interactivity, and relied on GitHub Copilot throughout the development workflow.",
+      "Developed and maintained web and scraper applications end-to-end, specializing in both front-end and back-end technologies. Skilled in Laravel, Vue.js, and Python for building user-friendly interfaces and scalable server-side solutions. Advanced from junior to software developer through continuous growth.",
     highlights: [
-      "Built and maintained FastAPI services alongside Laravel applications, Dockerized for consistent, repeatable deployment.",
-      "Enhanced web scraping systems to minimize dependency on user agents and reduce CAPTCHA occurrences.",
-      "Improved application performance up to 2x by designing an asynchronous system that chunks large tasks.",
-      "Created and maintained a CI/CD pipeline running in Docker, ensuring consistent code quality.",
+      "Enhanced web scraping systems to minimize dependency on user agents and reduce CAPTCHA occurrences, refining system architecture for more robust, seamless automation.",
+      "Improved application performance by up to 2x by designing an asynchronous system that divides large tasks into smaller, manageable chunks.",
+      "Reviewed pull requests to ensure the codebase adhered to code styling and standards.",
+      "Created and maintained a CI/CD pipeline, enhancing workflow efficiency and ensuring consistent code quality.",
+      "Reduced downtime by 10% through efficient cleanup processes and query optimization, including removing unused database data.",
+      "Boosted performance with efficient algorithms, caching strategies, and database query improvements, leading to faster load times and higher user satisfaction.",
     ],
   },
   {
@@ -72,12 +81,14 @@ export const experience: ExperienceItem[] = [
     role: "Software Engineer",
     period: "2022 — 2024",
     summary:
-      "Specialized in projects for international clients, particularly from Japan, across Python and PHP/JavaScript ecosystems. Built backend services with Django and FastAPI on PostgreSQL, managed migrations with Alembic.",
+      "Specialized in projects for international clients, particularly from Japan, using a range of modern web technologies — PHP, JavaScript, Laravel, Vue.js, React, Angular, and WordPress. Proven ability to adapt quickly, manage multiple projects simultaneously, and excel under pressure.",
     highlights: [
-      "Developed backend services using Django and FastAPI with PostgreSQL as the primary datastore.",
-      "Delivered projects for Japanese clients using PHP, TypeScript, Next.js, Laravel, Vue.js, React, Angular, and WordPress.",
-      "Used Alpine.js and HTMX to build fast, server-rendered UIs with minimal JavaScript overhead.",
-      "Managed multiple projects simultaneously while mentoring colleagues and sharing expertise.",
+      "Successfully developed and delivered projects for Japanese clients using PHP, JavaScript, Laravel, Vue.js, React, Angular, and WordPress.",
+      "Quickly adopted and implemented new technologies to meet the specific needs of diverse projects and client requirements.",
+      "Efficiently managed multiple projects at the same time, ensuring on-time delivery and meeting client expectations.",
+      "Consistently delivered high-quality results even in high-pressure situations, demonstrating reliability and resilience.",
+      "Worked effectively both independently and as part of small to large teams, contributing through strong technical skills and teamwork.",
+      "Actively assisted colleagues in their tasks, providing guidance and sharing expertise to help improve overall team performance.",
     ],
   },
   {
@@ -85,12 +96,12 @@ export const experience: ExperienceItem[] = [
     role: "Junior Backend Developer",
     period: "2019 — 2021",
     summary:
-      "Built web applications from scratch with a focus on efficiency and quick turnaround, using Laravel, React, Next.js, and PostgreSQL, containerized with Docker from early in my career.",
+      "Built web applications from scratch with a strong focus on efficiency and quick turnaround times, using Laravel and React. Adapted quickly to new versions of PHP and Laravel, optimizing existing codebases and implementing innovative solutions, including cryptocurrency-based systems for client investments and payouts.",
     highlights: [
-      "Developed a fully functional application from scratch within tight deadlines, deployed via Docker.",
-      "Quickly adapted to new versions of PHP and Laravel to improve performance and maintain code quality.",
-      "Enhanced existing codebases for faster load times and reduced resource consumption.",
-      "Designed and implemented a cryptocurrency-based system for client investments and payouts.",
+      "Successfully developed a fully functional application from scratch within tight deadlines using Laravel and React.",
+      "Quickly adapted to new versions of PHP and Laravel, leveraging the latest features to improve performance and maintain code quality.",
+      "Enhanced existing codebases to achieve maximum efficiency, resulting in faster load times and reduced resource consumption.",
+      "Designed and implemented a system that utilizes cryptocurrency for investments and payouts, ensuring secure and efficient transactions.",
     ],
   },
 ];
@@ -111,7 +122,7 @@ export type Project = {
   stack: string[];
   image: string;
   demoUrl: string;
-  repoUrl: string;
+  repoUrl?: string;
 };
 
 export const projects: Project[] = [
@@ -138,15 +149,34 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/romelpaano/saas-dashboard-demo",
   },
   {
-    slug: "internal-tools-portal",
-    title: "Internal Automation Portal",
+    slug: "seller-investigators",
+    title: "Seller Investigators by Carbon6",
     description:
-      "An Angular + Go internal tooling portal for automating repetitive operations workflows, inspired by production automation work.",
+      "An Amazon FBA reimbursement audit platform that automatically investigates lost, damaged, and overcharged inventory claims, then tracks every case through a transparent, itemized dashboard — 95.9% success rate across all claim types, $100M+ recovered.",
     category: "web",
-    stack: ["Angular", "Go", "TypeScript", "Docker"],
-    image: "/images/projects/portal.svg",
-    demoUrl: "https://demo.example.com/automation-portal",
-    repoUrl: "https://github.com/romelpaano/automation-portal-demo",
+    stack: ["Dashboard / SaaS", "Case Management", "Claims Automation"],
+    image: "/images/projects/seller-investigators.png",
+    demoUrl: "https://www.carbon6.io/seller-investigators",
+  },
+  {
+    slug: "cody-inc",
+    title: "Cody Inc. Corporate Website",
+    description:
+      "A WordPress marketing site for Cody Web Development Inc., a Cebu-based web design and development company serving clients worldwide.",
+    category: "web",
+    stack: ["WordPress", "PHP", "JavaScript"],
+    image: "/images/projects/cody-inc.png",
+    demoUrl: "https://cody.inc/",
+  },
+  {
+    slug: "lig-inc",
+    title: "LIG Inc.",
+    description:
+      "A WordPress site built for LIG Inc., a Japanese systems development, web production, and marketing support company — part of the international client work delivered from the Cody Web Development team.",
+    category: "web",
+    stack: ["WordPress", "PHP", "JavaScript"],
+    image: "/images/projects/liginc.png",
+    demoUrl: "https://liginc.co.jp/",
   },
   {
     slug: "ai-document-analyzer",

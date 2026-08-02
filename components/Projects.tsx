@@ -117,14 +117,16 @@ export default function Projects() {
                   >
                     <ExternalLink size={16} /> Live demo
                   </a>
-                  <a
-                    href={project.repoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-text-secondary transition-colors hover:text-text-primary"
-                  >
-                    <Github size={16} /> Code
-                  </a>
+                  {project.repoUrl && (
+                    <a
+                      href={project.repoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-text-secondary transition-colors hover:text-text-primary"
+                    >
+                      <Github size={16} /> Code
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.article>

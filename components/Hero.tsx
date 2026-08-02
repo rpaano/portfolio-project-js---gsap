@@ -33,9 +33,9 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg text-text-secondary">
-            {profile.subtitle} • 6+ years turning Django, FastAPI, Vue, React
-            and Next.js into fast, reliable products — with AI woven in where
-            it earns its keep.
+            {profile.subtitle} • 6+ years turning Laravel, Vue, React, and
+            Angular into fast, reliable products — now extending into cloud
+            and AI on GCP and Vertex AI.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">

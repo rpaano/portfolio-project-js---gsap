@@ -17,22 +17,22 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Romel Nino Paano | Full Stack Web Developer",
   description:
-    "Full Stack Web Developer with 6+ years of experience across Python and JavaScript ecosystems — Django, FastAPI, Vue, React, Next.js, Angular, and AI-integrated applications.",
+    "Full Stack Web Developer with 6+ years of experience across Python and JavaScript ecosystems — Laravel, Vue.js, React, Angular, GCP, Vertex AI, and AI-integrated applications.",
   keywords: [
     "Romel Nino Paano",
     "Full Stack Developer",
     "Python Developer",
     "JavaScript Developer",
-    "Django",
-    "FastAPI",
-    "Next.js",
+    "Laravel Developer",
+    "Vue.js",
+    "React",
     "AI Integration",
   ],
   authors: [{ name: "Romel Nino Paano" }],
   openGraph: {
     title: "Romel Nino Paano | Full Stack Web Developer",
     description:
-      "Full Stack Web Developer specializing in Python & JavaScript ecosystems, with hands-on AI integration experience.",
+      "Full Stack Web Developer specializing in Python, PHP, and JavaScript ecosystems, with hands-on AI integration experience.",
     type: "website",
   },
 };
